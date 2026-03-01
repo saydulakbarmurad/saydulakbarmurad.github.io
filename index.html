@@ -35,7 +35,7 @@
   <header id="header">
     <div class="d-flex flex-column">
       <div class="profile">
-        <img src="assets/img/profile-img1.jpeg" alt="" width="300" height="300" class="img-fluid pro-image" />
+        <img src="assets/img/profile-img1.jpg" alt="" width="300" height="300" class="img-fluid pro-image" />
         <h1 class="text-light">
           <a href="index.html">Saydul Akbar Murad</a>
         </h1>
@@ -59,6 +59,12 @@
           <li>
             <a href="#about"><i class="bx bx-user"></i> <span>About</span></a>
           </li>
+	<li>
+  		<a href="#awards"><i class="bx bx-trophy"></i> <span>Honors and Awards</span></a>
+	</li>
+	<li>
+  		<a href="#funding"><i class="bx bx-dollar-circle"></i> <span>			Funding</span></a>
+	</li>
           <li>
             <a href="#publication"><i class="bx bx-file-blank"></i> <span>Publication</span></a>
           </li>
@@ -72,11 +78,9 @@
           <li>
             <a href="#experience"><i class="bx bx-server"></i> Experience</a>
           </li>
+          
           <li>
-            <a href="#achievement"><i class="bx bx-trophy"></i>Achievements</a>
-          </li>
-          <li>
-            <a href="#voluntary"><i class="bx bx-heart"></i>Academic Service</a>
+            <a href="#service"><i class="bx bx-heart"></i>Academic Service</a>
           </li>
           <li>
             <a href="#Others"><i class="bx bx-dots-horizontal-rounded"></i>Others</a>
@@ -92,128 +96,312 @@
   </header>
   <!-- End Header -->
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center align-items-center vh-100">
-    <div class="hero-container" data-aos="fade-in">
-      <h1>Saydul Akbar Murad</h1>
-      <div style="text-align: center; color: white;">
-        <strong> 
-        PhD Candidate<br>
-        School of Computing Sciences and Computer Engineering<br>
-        The University of Southern Mississippi
-      </strong>
-    </div>    
+ <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+  <div class="container text-center" data-aos="fade-in">
+    <div class="row justify-content-center">
+      <div class="col-xl-10 col-lg-12">
+        
+        <h1>Saydul Akbar Murad</h1>
+        <p>I am <span class="typed" data-typed-items="a PhD Candidate, an AI Researcher, a Computer Engineer, a Journal Editor"></span></p>
+        
+        <div class="mb-5 px-3">
+           <h6 class="text-uppercase tracking-widest mb-2" style="color: var(--primary-color); letter-spacing: 2px; font-weight: 700;">
+             School of Computing Sciences and Computer Engineering
+           </h6>
+           <h5 class="font-weight-light text-white-50">The University of Southern Mississippi</h5>
+        </div>
+
+        <div class="hero-buttons d-flex flex-column flex-md-row justify-content-center align-items-center">
+          <a href="#publication" class="btn-hero active m-2">View Research</a>
+          <a href="#" onClick="openTab(this)" name="assets/files/CV.pdf" class="btn-hero m-2">Download CV</a>
+        </div>
+        
+      </div>
     </div>
-  </section>
+  </div>
+</section>
 
   <main id="main">
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about section-bg">
-      <div class="container">
-        <div class="section-title">
-          <h2>About</h2>
-          <p class="job-description">
-            Saydul Akbar Murad is a PhD Candidate in the School of Computing Sciences 
-            and Computer Engineering at the University of Southern Mississippi, USA. 
-            His academic journey began with a Bachelor of Science in Information and Communication Engineering, 
-            from Noakhali Science and Technology University, Bangladesh. He further enhanced his academic 
-            credentials by obtaining a master's degree in Computer Science from the University Malaysia Pahang, 
-            Malaysia. Murad's research interests are primarily focused on EEG, Brain-Computer Interface (BCI), 
-            Neuroscience, Cybersecurity Peer-to-Peer (P2P) Communication, and Cloud Computing. He has made significant 
-            contributions to these fields through extensive publications in various prestigious journals and conferences. 
-            His excellence in research was recognized with the Best Paper Award at the 8th International 
-            Conference on Computer and Communications Management. In addition to his research endeavors, 
-            Murad serves as an editor for the Journal of Computer Science, where he contributes his deep 
-            knowledge and expertise in the field.
-          </p>
-        </div>
+   <section id="about" class="about section-bg">
+  <div class="container">
 
-        <div class="row">
-          <div class="col-lg-4 mt-3 text-center" data-aos="fade-right">
-            <img src="assets/img/profile-img1.jpeg" class="img-fluid about-img" alt="" />
+    <div class="section-title">
+      <h2>About Me</h2>
+    </div>
 
-            <ul class="social-icon">
-              <li> <a href="https://scholar.google.com/citations?hl=en&user=JSlhN54AAAAJ"><img src="assets/img/g.png"
-                    alt="" class="img-fluid rounded-circle" /></a></li>
-              <li> <a href="https://www.researchgate.net/profile/Saydul-Murad"><img src="assets/img/r.png" alt=""
-                    class="img-fluid rounded-circle" /></a> </li>
-              <li> <a href="https://www.webofscience.com/wos/author/record/3796177"><img src="assets/img/p.png" alt=""
-                    class="img-fluid rounded-circle" /></a> </li>
-              <li> <a href="https://orcid.org/0000-0002-9015-1448"><img src="assets/img/o.png" alt=""
-                    class="img-fluid rounded-circle" /></a> </li>
-            </ul>
-
-          </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h2>Research Interest</h2>
-            <p class="job-description">
-              EEG, ML, DL, BCI, Cybersecurity, P2P Communication, Cloud Computing, Fog Computing.
-            </p>
-            <div class="row">
-              <div class="col-lg-10">
-                <h2>Technical Skill</h2>
-                <ul>
-		  <li>
-                    <i class="icofont-rounded-right"></i>
-                    <strong>ML:</strong> Pytorch, Transformers, Matplotlib, Tensorflow, Keras, Sklearn, NLTK, Pandas, Numpy, Scipy.
-                  </li>
-                  <li class="job-description">
-                    <i class="icofont-rounded-right"></i>
-                    <strong>Simulator:</strong> CloudSim, omnet++.
-                  </li>
-                  <li>
-                    <i class="icofont-rounded-right"></i><strong>Language:</strong> C/C++, Java, Python.
-                  </li>
-                  <li>
-                    <i class="icofont-rounded-right"></i>
-                    <strong>Database:</strong> MySQL
-                  </li>
-                  <li>
-                    <i class="icofont-rounded-right"></i>
-                    <strong> IDE:</strong> Spyder, Colab, Jupyter Notebook,
-                    Code Blocks, Dev-C++, PyCharm.
-                  </li>
-		  <li>
-                    <i class="icofont-rounded-right"></i>
-                    <strong> SWE:</strong> Git, Data Structure & Algorithm, HTML, CSS.
-                  </li>
-                  <li>
-                    <i class="icofont-rounded-right"></i>Have strong knowledge
-                    in android app development with java.
-                  </li>
-                  <li>
-                    <i class="icofont-rounded-right"></i>Proficient in Latex.
-                  </li>
-                </ul>
-              </div>
-
-            </div>
-
-            <h6> <a href=""><strong>saydulakbarmurad@gmail.com</strong></a></h6>
-            <h6> <a href=""><strong>saydulakbar.murad@usm.edu</strong></a></h6>
-          </div>
-        </div>
-        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+    <div class="row">
+      <div class="col-lg-4" data-aos="fade-right">
+        <img src="assets/img/Profile-img2.jpg" class="img-fluid about-img mb-3" alt="Saydul Akbar Murad">
         
-          <div class="section">
-            <h5>Education</h5>
-          </div>
-          <ul>
-            <li>
-              PhD in Computer Science, University of Southern Mississippi, USA, <strong>2026</strong>
-            </li>
-            <li>
-              MSc in Computer Science, University Malaysia Pahang, Malaysia, <strong>2023</strong> 
-            </li>
-            <li>
-              BSc in Information & Communication Eng., Noakhali Science & Tech. Univ., Bangladesh <strong>2020</strong>
-            </li>
+        <div class="p-3 bg-white rounded shadow-sm">
+          <ul class="info-list">
+            <li><i class="bx bx-envelope"></i> <a href="mailto:saydulakbarmurad@gmail.com" class="small">saydulakbarmurad@gmail.com</a></li>
+            <li><i class="bx bx-envelope"></i> <a href="mailto:saydulakbar.murad@usm.edu" class="small">saydulakbar.murad@usm.edu</a></li>
+            <li><i class="bx bx-map"></i> <span class="small">Hattiesburg, MS, USA</span></li>
           </ul>
+
+          <div class="social-links text-center mt-3">
+            <a href="https://scholar.google.com/citations?hl=en&user=JSlhN54AAAAJ" class="mx-1"><img src="assets/img/g.png" width="30" class="rounded-circle"></a>
+            <a href="https://www.researchgate.net/profile/Saydul-Murad" class="mx-1"><img src="assets/img/r.png" width="30" class="rounded-circle"></a>
+            <a href="https://orcid.org/0000-0002-9015-1448" class="mx-1"><img src="assets/img/o.png" width="30" class="rounded-circle"></a>
+          </div>
         </div>
       </div>
-    </section>
-    <!-- End About Section -->
-    <!-- abv -->
+
+      <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+        <h2>PhD Candidate in Computer Engineering</h2>
+        <p class="bio-text" style="text-align: justify; line-height: 1.8;">
+  Saydul Akbar Murad is a <strong>PhD Candidate</strong> at the University of Southern Mississippi, USA. 
+  His research operates at the intersection of <strong>Neuroscience, Artificial Intelligence, and Cybersecurity</strong>, 
+  focusing on decoding human brain activity (EEG) into text. With a master's degree from 
+  Universiti Malaysia Pahang, he has published extensively in high-impact journals (IF up to 10.6) 
+  regarding BCI and secure distributed systems. His work in <strong>Brain-Computer Interfaces (BCI)</strong> 
+  and <strong>Cybersecurity</strong> has earned him multiple "Best Paper" awards and international recognition. 
+  Beyond research, Murad serves as an editor for the Journal of Computer Science, contributing 
+  his expertise to the field.
+</p>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="mt-4">Technical Expertise</h2>
+            
+            <span class="skill-category-title">Artificial Intelligence & ML</span>
+            <div class="skill-tags">
+              <span class="skill-tag">PyTorch</span>
+              <span class="skill-tag">Transformers</span>
+              <span class="skill-tag">TensorFlow</span>
+              <span class="skill-tag">Keras</span>
+              <span class="skill-tag">Scikit-learn</span>
+              <span class="skill-tag">NLTK</span>
+              <span class="skill-tag">Pandas</span>
+              <span class="skill-tag">Numpy</span>
+            </div>
+
+            <span class="skill-category-title">Languages & Databases</span>
+            <div class="skill-tags">
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">C/C++</span>
+              <span class="skill-tag">Java</span>
+              <span class="skill-tag">MySQL</span>
+              <span class="skill-tag">LaTeX</span>
+            </div>
+
+            <span class="skill-category-title">Simulators & Tools</span>
+            <div class="skill-tags">
+              <span class="skill-tag">CloudSim</span>
+              <span class="skill-tag">OMNeT++</span>
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">Android Studio</span>
+              <span class="skill-tag">Jupyter Notebook</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col-12" data-aos="fade-up">
+        <h2 style="font-weight: 700; color: var(--primary-color); font-size: 1.6rem;">Education</h2>
+        
+        <div class="education-item">
+          <span class="edu-year">2023 — 2026 (Expected)</span>
+          <span class="edu-degree">PhD in Computer Science</span>
+          <span class="edu-school">The University of Southern Mississippi, USA</span>
+        </div>
+
+        <div class="education-item">
+          <span class="edu-year">2021 — 2023</span>
+          <span class="edu-degree">MSc in Computer Science</span>
+          <span class="edu-school">Universiti Malaysia Pahang, Malaysia</span>
+        </div>
+
+        <div class="education-item">
+          <span class="edu-year">2015 — 2020</span>
+          <span class="edu-degree">BSc in Information & Communication Engineering</span>
+          <span class="edu-school">Noakhali Science and Technology University, Bangladesh</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="awards" class="skills">
+  <div class="container">
+
+    <div class="section-title">
+      <h2>Honors and Awards</h2>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12" data-aos="fade-up">
+
+        <div class="award-item">
+          <div class="award-year">2026</div>
+          <div class="award-title">
+            <i class="bx bx-trophy award-icon"></i>Graduate Student Hall of Fame, 2026
+          </div>
+          <div class="award-org">Awarded by the Graduate School, University of Southern Mississippi, Mississippi, United States.</div>
+        </div>
+
+        <div class="award-item">
+          <div class="award-year">2025</div>
+          <div class="award-title">
+            <i class="bx bx-medal award-icon"></i>Best Paper Award, 2025
+          </div>
+          <div class="award-org">Awarded by 40th International Conference on Computers and Their Applications.</div>
+        </div>
+
+        <div class="award-item">
+          <div class="award-year">2025</div>
+          <div class="award-title">
+            <i class="bx bx-gift award-icon"></i>NAIRR Pilot Program Travel Grant, 2025
+          </div>
+          <div class="award-org">Awarded full funding for travel, lodging, and meals to participate in the National AI Research Resource (NAIRR) Pilot program.</div>
+        </div>
+
+        <div class="award-item">
+          <div class="award-year">2023 – Present</div>
+          <div class="award-title">
+            <i class="bx bx-certification award-icon"></i>Fully Funded Scholarship & GA Award, 2023 - *
+          </div>
+          <div class="award-org">Awarded by The University of Southern Mississippi, Mississippi, United States.</div>
+        </div>
+
+        <div class="award-item">
+          <div class="award-year">2023</div>
+          <div class="award-title">
+            <i class="bx bx-award award-icon"></i>Best Publication Award, 2023
+          </div>
+          <div class="award-org">Awarded by Universiti Malaysia Pahang Al-Sultan Abdullah, Pahang, Malaysia.</div>
+        </div>
+
+        <div class="award-item">
+          <div class="award-year">2023</div>
+          <div class="award-title">
+            <i class="bx bx-user-check award-icon"></i>Best Researcher Award, 2023
+          </div>
+          <div class="award-org">Awarded by International Research Awards on Computer Aided Design in Mechanical Eng.</div>
+        </div>
+
+        <div class="award-item">
+          <div class="award-year">2021 – 2023</div>
+          <div class="award-title">
+            <i class="bx bx-certification award-icon"></i>Fully Funded Scholarship, 2021 - 2023
+          </div>
+          <div class="award-org">Awarded by Universiti Malaysia Pahang Al-Sultan Abdullah, Pahang, Malaysia.</div>
+        </div>
+
+        <div class="award-item">
+          <div class="award-year">2020</div>
+          <div class="award-title">
+            <i class="bx bx-medal award-icon"></i>Best Paper Award, 2023
+          </div>
+          <div class="award-org">Awarded by The 8th International Conference on Computer and Communications Management.</div>
+        </div>
+
+        <div class="award-item">
+          <div class="award-year">2016</div>
+          <div class="award-title">
+            <i class="bx bx-code-alt award-icon"></i>3rd Place at NSTU Intra University Programming Contest, 2016
+          </div>
+          <div class="award-org">Awarded by Noakhali Science and Technology University, Noakhali, Bangladesh.</div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="funding" class="section-bg">
+  <div class="container">
+
+    <div class="section-title">
+      <h2>Grants, Fellowships & Funding</h2>
+    </div>
+
+    <h3 class="mb-4" style="color: #0563af; font-weight: 700;">Research Grants</h3>
+    <div class="row mb-5">
+      <div class="col-lg-12 mb-4" data-aos="fade-up">
+        <div class="funding-card" style="border-left: 5px solid #ff9800;">
+          <span class="funding-amount">$731,344</span>
+          <span class="funding-type">Research Grant <span class="status-badge">Submitted (2026 – 2030)</span></span>
+          <div class="grant-title">Privacy-Preserving Distributed Fog-Cloud Computing for Real-Time Neural Signal Processing and Brain-Computer Communication</div>
+          <div class="grant-details">
+            <p><strong>Funding Body:</strong> National Science Foundation (NSF)</p>
+            <p><strong>Role:</strong> Key contributor to the writing of the grant proposal</p>
+            <p><strong>PI:</strong> Dr. Nick Rahimi</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
+        <div class="funding-card">
+          <span class="funding-amount">$4,500</span>
+          <span class="funding-type">Research Grant (2025)</span>
+          <div class="grant-title">SecureBrainNet: A Privacy-Preserving Distributed Framework for Brain-Computer Interfaces</div>
+          <div class="grant-details">
+            <p><strong>Funding Body:</strong> University of Southern Mississippi (USM)</p>
+            <p><strong>Role:</strong> Key contributor to the writing of the grant proposal</p>
+            <p><strong>PI:</strong> Dr. Nick Rahimi</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="mb-4" style="color: #0563af; font-weight: 700;">Research Fellowships</h3>
+    <div class="row mb-5">
+      <div class="col-lg-4" data-aos="fade-up">
+        <div class="funding-card">
+          <span class="funding-amount">$2,000</span>
+          <span class="funding-type">Fellowship (2025)</span>
+          <div class="grant-title" style="font-size: 0.95rem;">Dissertation Completion Grant Award</div>
+          <p class="small text-muted italic">"Efficient Real-Time EEG-to-Text Decoding Using LDEPTH-Based P2P Fog Computing Architecture..."</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="funding-card">
+          <span class="funding-amount">$500</span>
+          <span class="funding-type">Research Award (2024)</span>
+          <div class="grant-title" style="font-size: 0.95rem;">Best Proposal Project</div>
+          <p class="small text-muted italic">"FMRG-Bio: Future Nanotherapy Manufacturing-transitioning from the lab to the pharma factor"</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="funding-card">
+          <span class="funding-amount">RM 21,600</span>
+          <span class="funding-type">Scholarship (2021 – 2023)</span>
+          <div class="grant-title" style="font-size: 0.95rem;">Master Research Scheme (MRS)</div>
+          <p class="small text-muted">Universiti Malaysia Pahang Al-Sultan Abdullah</p>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="mb-4" style="color: #0563af; font-weight: 700;">Travel Grants</h3>
+    <div class="row">
+      <div class="col-md-6" data-aos="fade-up">
+        <div class="funding-card">
+          <span class="funding-amount">$500</span>
+          <span class="funding-type">Travel Award (2024)</span>
+          <div class="grant-title" style="font-size: 1rem;">Graduate School’s Travel Award, USM</div>
+          <p class="small text-muted">Support for conference registration, attending, and presenting papers.</p>
+        </div>
+      </div>
+      <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="funding-card">
+          <span class="funding-amount">$500</span>
+          <span class="funding-type">Travel Award (2023)</span>
+          <div class="grant-title" style="font-size: 1rem;">School of BEES & CAS, USM</div>
+          <p class="small text-muted">Support for conference registration, attending, and presenting papers.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
 
 
 <section id="publication" class="publication section-bg">
@@ -582,79 +770,81 @@
 
     <div class="section-title">
       <h2>Projects</h2>
-      <p>A selection of my research and software development projects.</p>
     </div>
 
     <div class="row">
 
       <div class="col-lg-6" data-aos="fade-up" data-aos-delay="0">
         <div class="card project-card">
-          <img src="https://via.placeholder.com/600x400.png?text=EEG+to+Text+Project" class="card-img-top project-card-img" alt="EEG to Text Decoding Project">
+          <img src="assets/img/EEG_methodology.jpg" class="card-img-top project-card-img" alt="EEG to Text Decoding Project">
           <div class="card-body">
-            <h5>1. EEG to Text Decoding</h5>
+            <h5>EEG to Text Decoding</h5>
             <p class="job-description">Developed the R1 Translator model, an advanced EEG-to-text decoding framework using LSTM-based encoding and a pretrained BART transformer. Achieved SOTA results on the ZuCo dataset.</p>
+<a href="https://github.com/saydulakbarmurad/EEG-To-text" class="github-link" target="_blank"><strong><i class="bx bxl-github"></i> View on GitHub</strong></a>
           </div>
         </div>
       </div>
 
       <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
         <div class="card project-card">
-          <img src="https://via.placeholder.com/600x400.png?text=Cyber+Threat+Detection" class="card-img-top project-card-img" alt="Cyber Threat Detection in Tweets/X">
+          <img src="assets/img/Tweet_Methodology.jpg" class="card-img-top project-card-img" alt="Cyber Threat Detection in Tweets/X">
           <div class="card-body">
-            <h5>2. Cyber Threat Detection in Tweets/X</h5>
+            <h5>Cyber Threat Detection in Tweets/X</h5>
             <p class="job-description">Developed a multi-lingual cyber threat detection system (English, Chinese, Russian, Arabic) using ML, DL, and LLMs. The research utilized RF, Bi-LSTM, and XLM-ROBERTa.</p>
-            <a href="https://github.com/Mmurrad" class="github-link" target="_blank"><strong><i class="bx bxl-github"></i> View on GitHub</strong></a>
+            <a href="https://github.com/saydulakbarmurad/Tweet-Data-Classification" class="github-link" target="_blank"><strong><i class="bx bxl-github"></i> View on GitHub</strong></a>
           </div>
         </div>
       </div>
 
       <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
         <div class="card project-card">
-          <img src="https://via.placeholder.com/600x400.png?text=POVQA+Project" class="card-img-top project-card-img" alt="Preference-Optimized Video Question Answering">
+          <img src="assets/img/POVQA.png" class="card-img-top project-card-img" alt="Preference-Optimized Video Question Answering">
           <div class="card-body">
-            <h5>3. Preference-Optimized Video Question Answering (POVQA)</h5>
+            <h5> Preference-Optimized Video Question Answering (POVQA)</h5>
             <p class="job-description">Developed POVQA, a framework that integrates temporal pooling and rationale supervision to improve data efficiency. Fine-tuning the QWEN-2.5-VL 7B model with SFT and DPO enhanced performance.</p>
+<a href="https://github.com/ashimdahal/POVQA" class="github-link" target="_blank"><strong><i class="bx bxl-github"></i> View on GitHub</strong></a>
           </div>
         </div>
       </div>
 
       <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
         <div class="card project-card">
-          <img src="https://via.placeholder.com/600x400.png?text=Redemption+Score" class="card-img-top project-card-img" alt="Redemption Score Project">
+          <img src="assets/img/Repemption.png" class="card-img-top project-card-img" alt="Redemption Score Project">
           <div class="card-body">
-            <h5>4. Redemption Score</h5>
+            <h5> Redemption Score</h5>
             <p class="job-description">Introduced a novel hybrid framework for evaluating image captions by triangulating Mutual Information Divergence, DINO-based perceptual similarity, and LLM-based text embeddings.</p>
-            <a href="https://github.com/Mmurrad" class="github-link" target="_blank"><strong><i class="bx bxl-github"></i> View on GitHub</strong></a>
+            <a href="https://redemption-paper.pages.dev/" class="github-link" target="_blank"><strong><i class="bx bxl-github"></i> View on GitHub</strong></a>
           </div>
         </div>
       </div>
 
       <div class="col-lg-6" data-aos="fade-up" data-aos-delay="0">
         <div class="card project-card">
-          <img src="https://via.placeholder.com/600x400.png?text=CLIP+Augmentations" class="card-img-top project-card-img" alt="Embedding Shift Dissection on CLIP">
+          <img src="assets/img/CLIP.png" class="card-img-top project-card-img" alt="Embedding Shift Dissection on CLIP">
           <div class="card-body">
-            <h5>5. Embedding Shift Dissection on CLIP</h5>
+            <h5> Embedding Shift Dissection on CLIP</h5>
             <p class="job-description">Analyzed the impact of nine image augmentation techniques on the representation learning of VLMs (CLIP). Introduced systematic analysis of embedding shifts and attention map variation.</p>
-            <a href="https://github.com/Mmurrad" class="github-link" target="_blank"><strong><i class="bx bxl-github"></i> View on GitHub</strong></a>
+            <a href="https://github.com/ashimdahal/clip-shift-analysis" class="github-link" target="_blank"><strong><i class="bx bxl-github"></i> View on GitHub</strong></a>
           </div>
         </div>
       </div>
 
       <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
         <div class="card project-card">
-          <img src="https://via.placeholder.com/600x400.png?text=ViT+vs+CNN+Segmentation" class="card-img-top project-card-img" alt="ViT vs CNN Segmentation">
+          <img src="assets/img/ViT.png" class="card-img-top project-card-img" alt="ViT vs CNN Segmentation">
           <div class="card-body">
-            <h5>6. ViT vs CNN Segmentation</h5>
+            <h5> ViT vs CNN Segmentation</h5>
             <p class="job-description">Conducted a heuristic comparison of ViT and CNN for semantic segmentation of remote sensing imagery. Introduced a novel weighted loss function to optimize IoU and Dice scores on the iSAID dataset.</p>
+<a href="https://github.com/ashimdahal/ViT-vs-CNN-Image-Segmentation" class="github-link" target="_blank"><strong><i class="bx bxl-github"></i> View on GitHub</strong></a>
           </div>
         </div>
       </div>
 
       <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
         <div class="card project-card">
-          <img src="https://via.placeholder.com/600x400.png?text=P2P+Fog+Computing" class="card-img-top project-card-img" alt="P2P Communication in Fog Computing">
+          <img src="assets/img/P2P.png" class="card-img-top project-card-img" alt="P2P Communication in Fog Computing">
           <div class="card-body">
-            <h5>7. P2P Communication in Fog Computing</h5>
+            <h5> P2P Communication in Fog Computing</h5>
             <p class="job-description">Introduced a new integrated P2P architecture within the fog layer, an advanced iteration of the 2-layer LDEPTH architecture. This framework organizes networks hierarchically.</p>
             <a href="https://github.com/Mmurrad/P2P-in-Fog-Computing" class="github-link" target="_blank"><strong><i class="bx bxl-github"></i> View on GitHub</strong></a>
           </div>
@@ -663,9 +853,9 @@
 
       <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
         <div class="card project-card">
-          <img src="https://via.placeholder.com/600x400.png?text=Cloud+Job+Scheduling" class="card-img-top project-card-img" alt="Job Scheduling Technique in Cloud Computing">
+          <img src="assets/img/Job_Scheduling.png" class="card-img-top project-card-img" alt="Job Scheduling Technique in Cloud Computing">
           <div class="card-body">
-            <h5>8. Job Scheduling Technique in Cloud Computing</h5>
+            <h5> Job Scheduling Technique in Cloud Computing</h5>
             <p class="job-description">Introduced and developed SG-PBFS, a novel priority-based job scheduling method. Conducted several experiments to validate and refine the technique for optimizing computational resources.</p>
             <a href="https://github.com/Mmurrad/Job-Scheduling-Using-CloudSim" class="github-link" target="_blank"><strong><i class="bx bxl-github"></i> View on GitHub</strong></a>
           </div>
@@ -674,9 +864,9 @@
 
       <div class="col-lg-6" data-aos="fade-up" data-aos-delay="0">
         <div class="card project-card">
-          <img src="https://via.placeholder.com/600x400.png?text=Android+App" class="card-img-top project-card-img" alt="Department Management System Android App">
+          <img src="assets/img/Android.png" class="card-img-top project-card-img" alt="Department Management System Android App">
           <div class="card-body">
-            <h5>9. Department Management System (Android App)</h5>
+            <h5> Department Management System (Android App)</h5>
             <p class="job-description">Developed a comprehensive Android application using Java to serve as an educational management tool. It allows for efficient management of notices, courses, student profiles, and attendance.</p>
             <a href="https://github.com/Mmurrad/StudentInfo" class="github-link" target="_blank"><strong><i class="bx bxl-github"></i> View on GitHub</strong></a>
           </div>
@@ -685,30 +875,30 @@
 
       <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
         <div class="card project-card">
-          <img src="https://via.placeholder.com/600x400.png?text=Impact+Learning+ML" class="card-img-top project-card-img" alt="Impact Learning Implementation">
+          <img src="assets/img/Impact_Learning.png" class="card-img-top project-card-img" alt="Impact Learning Implementation">
           <div class="card-body">
-            <h5>10. Impact Learning Implementation</h5>
-            <p class="job-description">Impact Learning is a robust, supervised ML algorithm for resolving classification and regression problems. It is used to achieve advanced results on many ML-related challenges. (Package: `pip install impactlearning`).</p>
+            <h5> Impact Learning Implementation</h5>
+            <p class="job-description">Impact Learning is a robust, supervised ML algorithm for resolving classification and regression problems. It is used to achieve advanced results on many ML-related challenges. </p>
+<a ></i> Package: pip install impactlearning</strong></a>
           </div>
         </div>
       </div>
 
       <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
         <div class="card project-card">
-          <img src="https://via.placeholder.com/600x400.png?text=Asthma+Prediction+App" class="card-img-top project-card-img" alt="Intelligent Android App to Predict Asthma">
+          <img src="assets/img/Asthma.png" class="card-img-top project-card-img" alt="Intelligent Android App to Predict Asthma">
           <div class="card-body">
-            <h5>11. An Intelligent Android App to Predict Asthma</h5>
+            <h5> An Intelligent Android App to Predict Asthma</h5>
             <p class="job-description">Contributed to research for a socially intelligent application aimed at developing predictive and treatment planning systems for asthma. Implemented an ML strategy focused on minimizing errors.</p>
-            <a href="https://github.com/Mmurrad/RestaurantApps" class="github-link" target_blank"><strong><i class="bx bxl-github"></i> View on GitHub</strong></a>
-          </div>
+                      </div>
         </div>
       </div>
 
       <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
         <div class="card project-card">
-          <img src="https://via.placeholder.com/600x400.png?text=Java+Order+System" class="card-img-top project-card-img" alt="Java-Powered Customer Order Management System">
+          <img src="assets/img/" class="card-img-top project-card-img" alt="Java-Powered Customer Order Management System">
           <div class="card-body">
-            <h5>12. Java-Powered Customer Order Management System</h5>
+            <h5> Java-Powered Customer Order Management System</h5>
             <p class="job-description">Crafted using Java, this application facilitates customer order placement and item reviews. It also includes a comprehensive system to track and summarize all transactions for business analytics.</p>
             <a href="https://github.com/Mmurrad/RestaurantApps" class="github-link" target="_blank"><strong><i class="bx bxl-github"></i> View on GitHub</strong></a>
           </div>
@@ -723,73 +913,73 @@
 
         <!-- End Project Section -->
 
-<!-- ======= Begain Experience Section ======= -->
-
 <section id="experience" class="experience section-bg">
   <div class="container">
 
     <div class="section-title">
       <h2>Experience</h2>
+          </div>
+
+    <div class="row">
+      <div class="col-12">
+        <h3 class="mb-4" style="color: #0d47a1; font-weight: 700; display: flex; align-items: center;">
+          <i class="bx bx-chalkboard mr-2"></i> Teaching Experience
+        </h3>
+      </div>
     </div>
 
     <div class="row">
-        <div class="col-12">
-            <h3 class="mb-4" style="color: #0d47a1; font-weight: 700;">Teaching Experience</h3>
-        </div>
-    </div>
-
-    <div class="row">
-
-      <div class="col-lg-6" data-aos="fade-up">
+      <div class="col-lg-12" data-aos="fade-up">
         <div class="card teaching-card">
           <div class="card-body">
             <span class="teaching-date">Spring 2025 - Present</span>
             <h4 class="teaching-role">Instructor</h4>
-            <p class="teaching-place">University of Southern Mississippi, USA</p>
+            <span class="teaching-place">University of Southern Mississippi, USA</span>
             <ul class="course-list">
-               <li><span class="course-code">CSC 327</span> Secure Software Development (Fall 2025)</li>
-               <li><span class="course-code">CSC 327</span> Secure Software Development (Summer 2025)</li>
-               <li><span class="course-code">CSC 102</span> Computer Science II (Spring 2025)</li>
+		<li><span class="course-code">CSC 102</span> Computer Science II (Spring 2026)</li>
+              <li><span class="course-code">CSC 327</span> Secure Software Development (Fall 2025)</li>
+              <li><span class="course-code">CSC 327</span> Secure Software Development (Summer 2025)</li>
+              <li><span class="course-code">CSC 102</span> Computer Science II (Spring 2025)</li>
             </ul>
           </div>
         </div>
       </div>
 
-      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+      <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
         <div class="card teaching-card">
           <div class="card-body">
             <span class="teaching-date">Fall 2023</span>
             <h4 class="teaching-role">Graduate Assistant</h4>
-            <p class="teaching-place">University of Southern Mississippi, USA</p>
+            <span class="teaching-place">University of Southern Mississippi, USA</span>
             <ul class="course-list">
-               <li><span class="course-code">CSC 428-591</span> Machine Learning in Cybersecurity </li>
+              <li><span class="course-code">CSC 428-591</span> Machine Learning in Cybersecurity</li>
             </ul>
           </div>
         </div>
       </div>
 
-      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+      <div class="col-lg-12" data-aos="fade-up" data-aos-delay="200">
         <div class="card teaching-card">
           <div class="card-body">
             <span class="teaching-date">Fall 2022</span>
             <h4 class="teaching-role">Lecturer</h4>
-            <p class="teaching-place">International Islamic University Chittagong, Bangladesh</p>
+            <span class="teaching-place">International Islamic University Chittagong, Bangladesh</span>
             <ul class="course-list">
-               <li><span class="course-code">ETE-4757</span> Database Management Systems</li>
-               <li><span class="course-code">ETE-4758</span> Database Management System Sessional</li>
+              <li><span class="course-code">ETE-4757</span> Database Management Systems</li>
+              <li><span class="course-code">ETE-4758</span> Database Management System Sessional</li>
             </ul>
           </div>
         </div>
       </div>
 
-      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+      <div class="col-lg-12" data-aos="fade-up" data-aos-delay="300">
         <div class="card teaching-card">
           <div class="card-body">
             <span class="teaching-date">Spring 2022</span>
             <h4 class="teaching-role">Instructor</h4>
-            <p class="teaching-place">Universiti Malaysia Pahang, Malaysia</p>
+            <span class="teaching-place">Universiti Malaysia Pahang, Malaysia</span>
             <ul class="course-list">
-               <li><span class="course-code">BCS-3283</span> Mobile Application Development</li>
+              <li><span class="course-code">BCS-3283</span> Mobile Application Development</li>
             </ul>
           </div>
         </div>
@@ -800,183 +990,129 @@
           <div class="card-body">
             <span class="teaching-date">2020 - 2021</span>
             <h4 class="teaching-role">Lecturer</h4>
-            <p class="teaching-place">National Model College, Noakhali, Bangladesh</p>
-             <p><strong>Subjects Taught:</strong> Data Communication, Database Management Systems, Programming</p>
+            <span class="teaching-place">National Model College, Noakhali, Bangladesh</span>
+            <p class="mt-2 mb-0"><strong>Subjects Taught:</strong> Data Communication, Database Management Systems, Programming</p>
           </div>
         </div>
       </div>
-
     </div>
 
-    <div class="row mt-5"> 
-        <div class="col-12">
-            <h3 class="mb-4" style="color: #0d47a1; font-weight: 700;">Job Experience</h3>
-        </div>
+    <div class="row mt-5">
+      <div class="col-12">
+        <h3 class="mb-4" style="color: #0d47a1; font-weight: 700; display: flex; align-items: center;">
+          <i class="bx bx-briefcase mr-2"></i> Research & Job Experience
+        </h3>
+      </div>
     </div>
 
     <div class="row">
       <div class="col-lg-12" data-aos="fade-up">
-        
-        <div class="timeline">
+        <div class="experience-timeline">
 
           <div class="timeline-item">
-            <div class="timeline-dot"></div>
             <h4 class="job-title">Graduate Research Assistant</h4>
             <div class="job-meta">
-              <span class="job-date">Jan 2023 – Present</span>
-              <span class="job-location">University of Southern Mississippi, Mississippi, USA</span>
+              <strong>University of Southern Mississippi, USA</strong> | <span class="text-primary">Jan 2023 – Present</span>
             </div>
+            <p class="small text-muted">Decoding human brain signals into text and researching ML in Cybersecurity and Blockchain systems.</p>
           </div>
 
           <div class="timeline-item">
-            <div class="timeline-dot"></div>
             <h4 class="job-title">Graduate Research Assistant</h4>
             <div class="job-meta">
-              <span class="job-date">May 2021 – Jan 2023</span>
-              <span class="job-location">Universiti Malaysia Pahang Al-Sultan Abdullah, Pahang, Malaysia</span>
+              <strong>Universiti Malaysia Pahang Al-Sultan Abdullah, Malaysia</strong> | <span class="text-primary">May 2021 – Jan 2023</span>
             </div>
+            <p class="small text-muted">Focused on new priority-rule job scheduling techniques within a networking lab environment.</p>
           </div>
 
           <div class="timeline-item">
-            <div class="timeline-dot"></div>
             <h4 class="job-title">Lecturer</h4>
             <div class="job-meta">
-              <span class="job-date">Aug 2022 – Dec 2022</span>
-              <span class="job-location">International Islamic University Chittagong, Bangladesh</span>
+              <strong>International Islamic University Chittagong, Bangladesh</strong> | <span class="text-primary">Aug 2022 – Dec 2022</span>
             </div>
+            <p class="small text-muted">Conducted lectures and supervised labs for Database Management Systems.</p>
           </div>
 
           <div class="timeline-item">
-            <div class="timeline-dot"></div>
             <h4 class="job-title">Lecturer</h4>
             <div class="job-meta">
-              <span class="job-date">Feb 2020 – Jan 2021</span>
-              <span class="job-location">National Model College, Noakhali, Bangladesh</span>
+              <strong>National Model College, Noakhali, Bangladesh</strong> | <span class="text-primary">Feb 2020 – Jan 2021</span>
             </div>
+            <p class="small text-muted">Taught foundational and advanced computing subjects including Data Communication and Programming.</p>
           </div>
 
           <div class="timeline-item">
-            <div class="timeline-dot"></div>
             <h4 class="job-title">Industrial Trainee</h4>
             <div class="job-meta">
-              <span class="job-date">Feb 2019 – Mar 2019</span>
-              <span class="job-location">BTCL Nandankanon, Chittagong, Bangladesh</span>
+              <strong>BTCL Nandankanon, Chittagong, Bangladesh</strong> | <span class="text-primary">Feb 2019 – Mar 2019</span>
             </div>
+            <p class="small text-muted">Gained practical knowledge in optical fiber communication and corporate network structures.</p>
           </div>
 
-        </div> 
+        </div>
       </div>
     </div>
 
   </div>
 </section>
 
-<!-- ======= End Experience Section ======= -->
+   
 
-    <!-- ======= Achievements Section ======= -->
-    <section id="achievement" class="skills section-bg">
-      <div class="container">
-        <div class="section-title">
-          <h2>Achievements</h2>
-        </div>
-
-        <div class="row skills-content">
-          <div class="col-lg-10" data-aos="fade-up">
-            <ul>
-              <li>
-                Best Proposal Project, The University of Southern Mississippi, USA. Grant amount: $500. 
-              </li>
-              <li>
-                Industrial GRANTS, supported by Kaneka Production, Malaysia. Grant amount: RM24000. 
-              </li>
-              <li>
-                FRGS GRANTS, supported by the Ministry of Higher Education, Malaysia. Grant amount: RM81000. 
-              </li>
-              <li>
-                Master's Research Scholarship, funded by the MHE, Malaysia. Grant amount: RM21600. 
-              </li>
-              <li> Best Publication Award, UMP, Malaysia </li>
-              <li>
-                Best Research Paper Award in the 9th International Conference
-                on Computer and Communications Management, ACM, 2020.
-              </li>
-              <li>
-                3rd Place at NSTU Intra University Programming Contest 2016.
-              </li>
-              
-              
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Achievements Section -->
-
-    <section id="voluntary" class="skills section-bg">
+    <section id="service" class="skills section-bg">
   <div class="container">
 
     <div class="section-title">
       <h2>Academic Service</h2>
-      <p>My contributions to the scientific community as an editor and peer reviewer.</p>
+      
     </div>
 
     <div class="row">
 
-      <div class="col-lg-5 col-md-12 d-flex align-items-stretch" data-aos="fade-up">
+      <div class="col-lg-5 mb-4" data-aos="fade-up">
         <div class="service-card">
           
-          <h5>Journal Editorship</h5>
-          <ul class="service-list editors">
-            <li>
-              <strong>Journal of Combinatorial Mathematics and Combinatorial Computing (JCMCC)</strong>
-              <span class="service-publisher">Publisher: Combinatorial Press</span>
-            </li>
-            <li>
-              <a href="https://thescipub.com/jcs" target="_blank"><strong>Journal of Computer Science</strong></a>
-              <span class="service-publisher">Publisher: Science Publication</span>
-            </li>
-          </ul>
+          <h5><i class="bx bx-edit-alt"></i> Journal Editorship</h5>
+          <div class="service-item">
+            <strong>Journal of Combinatorial Mathematics and Combinatorial Computing (JCMCC)</strong>
+            <span class="service-publisher">Publisher: Combinatorial Press</span>
+          </div>
+          <div class="service-item">
+            <a href="https://thescipub.com/jcs" target="_blank"><strong>Journal of Computer Science</strong></a>
+            <span class="service-publisher">Publisher: Science Publication</span>
+          </div>
 
-          <h5 class="mt-4">Program Committee</h5>
-          <ul class="service-list committee">
-            <li>
-              <strong>34th SEDE Conference</strong>
-              <span class="service-publisher">Software & Data Engineering (SEDE)</span>
-            </li>
-          </ul>
+          <h5 class="mt-5"><i class="bx bx-group"></i> Program Committee</h5>
+          <div class="service-item">
+            <strong>34th SEDE Conference</strong>
+            <span class="service-publisher">International Conference on Software Engineering and Data Engineering</span>
+          </div>
 
         </div>
       </div>
 
-      <div class="col-lg-7 col-md-12 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+      <div class="col-lg-7 mb-4" data-aos="fade-up" data-aos-delay="100">
         <div class="service-card">
-          <h5>Reviewer for Research Articles</h5>
-          <div class="row">
-            
-            <div class="col-lg-6">
-              <ul class="service-list reviewers">
-                <li>NeurIPS</li>
-                <li>IEEE Internet of Things Journal</li>
-                <li>IEEE Access</li>
-                <li>IEEE Transactions on Cognitive and Developmental Systems</li>
-                <li>IEEE Reviews in Biomedical Engineering</li>
-                <li>Scientific Reports</li>
-                <li>ACM Transactions on Knowledge Discovery from Data</li>
-              </ul>
-            </div>
+          <h5><i class="bx bx-check-shield"></i> Peer Reviewer</h5>
+          
+          
+          <div class="badge-grid">
+            <span class="reviewer-badge">NeurIPS</span>
+            <span class="reviewer-badge">IEEE Internet of Things Journal</span>
+            <span class="reviewer-badge">IEEE Access</span>
+            <span class="reviewer-badge">IEEE Trans. on Cognitive & Developmental Systems</span>
+            <span class="reviewer-badge">IEEE Reviews in Biomedical Engineering</span>
+            <span class="reviewer-badge">Scientific Reports (Nature)</span>
+            <span class="reviewer-badge">ACM Trans. on Knowledge Discovery from Data (TKDD)</span>
+            <span class="reviewer-badge">The Journal of Supercomputing</span>
+            <span class="reviewer-badge">Computer Methods in Biomechanics & Biomedical Eng.</span>
+            <span class="reviewer-badge">Innovations in Systems and Software Engineering</span>
+            <span class="reviewer-badge">Journal of Experimental & Theoretical AI</span>
+            <span class="reviewer-badge">Congress on Smart Computing Technologies</span>
+            <span class="reviewer-badge">Journal on Artificial Intelligence</span>
+          </div>
 
-            <div class="col-lg-6">
-              <ul class="service-list reviewers">
-                <li>Transactions on Knowledge Discovery from Data</li>
-                <li>Computer Methods in Biomechanics and Biomedical Engineering</li>
-                <li>The Journal of Supercomputing</li>
-                <li>Innovations in Systems and Software Engineering</li>
-                <li>Journal of Experimental & Theoretical Artificial Intelligence</li>
-                <li>Congress on Smart Computing Technologies</li>
-                <li>Journal on Artificial Intelligence</li>
-              </ul>
-            </div>
-
+          <div class="mt-4 pt-3 border-top">
+             <p class="small italic text-muted">Verification of review records available upon request or via Web of Science/ORCID.</p>
           </div>
         </div>
       </div>
@@ -986,82 +1122,101 @@
   </div>
 </section>
 
-<!-- End Academic Service Section -->
+        <section id="Others" class="others-section section-bg">
+  <div class="container">
 
+    <div class="section-title">
+      <h2>Professional Development</h2>
+      
+    </div>
 
-        <!-- ======= Others Section ======= -->
-        <section id="Others" class="skills ">
-          <div class="container">
-            <div class="section-title">
-              <h2>Others</h2>
-            </div>
-    
-            <div class="row skills-content">
-              
-              <div class="col-lg-10" data-aos="fade-up">
-                <div class="section">
-                  <h5>Professional Training</h5>
-                </div>
-                <ul>
-                  <li>
-                    <strong>Research writing skill</strong>, EMK Center (2021)
-                  </li>
-                  <li>
-                    <strong>Data Science with Python (Part 1)</strong>, Maker Lab, EMK Center (2020)
-                  </li>
-                  <li>
-                    <strong>Data Science with Python (Part 2)</strong>, Maker Lab, EMK Center (2020)
-                  </li>
-                  <li>
-                    <strong> Android Application Development- Java</strong>, SEIP under Basis Institute of Technology and
-                    Management (2019)
-                  </li>
-                  <li>
-                    <strong>Android Application Development, LICT, Bangladesh (2016)</strong>
-                  </li>
-                </ul>
-              </div>
-              <div class="col-lg-10" data-aos="fade-up">
-                <div class="section">
-                  <h5>Workshops And Presentation</h5>
-                </div>
-                <ul>
-                  <li class="voluntary-li"> 
-                    <strong>Oral Presentation</strong>, at The University of Southern Mississippi, USA
-                    on The Topic of <strong>Decoding Brainwaves: A Hybrid Neural Network Approach for Translating EEG Signals into Text</strong> in 2024.
-                  </li>
-                  <li class="voluntary-li"> 
-                    <strong>Oral Presentation</strong>, at 2023 10th International Conference on Internet of Things: Systems, Management and Security (IOTSMS), USA.
-                  </li>
-                  <li class="voluntary-li"> 
-                    <strong>Oral Presentation</strong>, at 8th International Conference on Software Engineering \& Computer Systems 2023, Malaysia.
-                  </li>
-                  <li class="voluntary-li"> 
-                    <strong>Oral Presentation</strong>, at 38th International Conference on Computers and Their Applications, USA.
-                  </li>
-                  <li class="voluntary-li"> 
-                    <strong>Oral Presentation</strong>, at National Conference for Postgraduate Research (NCON-PGR), 2022, UMP, Malaysia.
-                  </li>
-                  <li class="voluntary-li"> 
-                    <strong>Oral Presentation</strong>, at 2021 Emerging Technology in Computing, Communication, and
-                    Electronics (ETCCE), Dhaka, Bangladesh.
-                  </li>
-                  <li class="voluntary-li">
-                    <strong>Oral Presentation</strong>, at 7th INTERNATIONAL CONFERENCE ON SOFTWARE
-                    ENGINEERING & COMPUTER SYSTEM (ICSECS – 2021), UMP, Pahang, Malaysia.
-                  </li>
-                  <li class="voluntary-li">
-                    <strong>Workshops Research and Academic Career</strong>. Conducted by UniV Summer School
-                    (Three weeklong workshops).
-    
-                  </li>
-                </ul>
-              </div>
+    <div class="row">
+
+      <div class="col-lg-5 mb-4" data-aos="fade-right">
+        <div class="info-card">
+          <h5><i class="bx bx-certification"></i> Professional Training</h5>
+          
+          <div class="training-item">
+            <i class="bx bxs-check-circle"></i>
+            <div class="training-content">
+              <strong>Research Writing Skills</strong>
+              <span>EMK Center (2021)</span>
             </div>
           </div>
-        </section>
 
-      <!-- End Others -->
+          <div class="training-item">
+            <i class="bx bxs-check-circle"></i>
+            <div class="training-content">
+              <strong>Data Science with Python (Part 1 & 2)</strong>
+              <span>Maker Lab, EMK Center (2020)</span>
+            </div>
+          </div>
+
+          <div class="training-item">
+            <i class="bx bxs-check-circle"></i>
+            <div class="training-content">
+              <strong>Android Application Development - Java</strong>
+              <span>SEIP under Basis Institute of Technology & Management (2019)</span>
+            </div>
+          </div>
+
+          <div class="training-item">
+            <i class="bx bxs-check-circle"></i>
+            <div class="training-content">
+              <strong>Android Application Development</strong>
+              <span>LICT, Bangladesh (2016)</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-lg-7 mb-4" data-aos="fade-left">
+        <div class="info-card">
+          <h5><i class="bx bx-slideshow"></i> Invited Talks & Oral Presentations</h5>
+          
+          <div class="presentation-item">
+            <span class="presentation-title">Decoding Brainwaves: A Hybrid Neural Network Approach for Translating EEG Signals into Text</span>
+            <span class="presentation-meta">2024 | <span class="presentation-location">University of Southern Mississippi, USA</span></span>
+          </div>
+
+          <div class="presentation-item">
+            <span class="presentation-title">10th International Conference on Internet of Things: Systems, Management and Security (IOTSMS)</span>
+            <span class="presentation-meta">2023 | <span class="presentation-location">USA</span></span>
+          </div>
+
+          <div class="presentation-item">
+            <span class="presentation-title">8th International Conference on Software Engineering & Computer Systems</span>
+            <span class="presentation-meta">2023 | <span class="presentation-location">Malaysia</span></span>
+          </div>
+
+          <div class="presentation-item">
+            <span class="presentation-title">38th International Conference on Computers and Their Applications</span>
+            <span class="presentation-meta">2023 | <span class="presentation-location">USA</span></span>
+          </div>
+
+          <div class="presentation-item">
+            <span class="presentation-title">National Conference for Postgraduate Research (NCON-PGR)</span>
+            <span class="presentation-meta">2022 | <span class="presentation-location">UMP, Malaysia</span></span>
+          </div>
+
+          <div class="presentation-item">
+            <span class="presentation-title">Emerging Technology in Computing, Communication, and Electronics (ETCCE)</span>
+            <span class="presentation-meta">2021 | <span class="presentation-location">Dhaka, Bangladesh</span></span>
+          </div>
+
+          <div class="presentation-item">
+            <span class="presentation-title">Workshops on Research and Academic Career</span>
+            <span class="presentation-meta">UniV Summer School (Three-week intensive)</span>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
 
 
   </main>

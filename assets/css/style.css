@@ -1210,3 +1210,620 @@ justify-items: center;
       color: #666;
       font-style: italic;
     }
+
+/* --- Awards Styling --- */
+    .award-item {
+      padding: 20px;
+      margin-bottom: 20px;
+      border-left: 4px solid var(--primary-color);
+      background: #fff;
+      box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+      transition: 0.3s;
+      border-radius: 0 8px 8px 0;
+    }
+
+    .award-item:hover {
+      transform: translateX(10px);
+      box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+    }
+
+    .award-year {
+      display: inline-block;
+      padding: 2px 12px;
+      background: var(--primary-color);
+      color: #fff;
+      font-weight: 600;
+      font-size: 0.85rem;
+      border-radius: 4px;
+      margin-bottom: 10px;
+    }
+
+    .award-title {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #333;
+      margin-bottom: 5px;
+    }
+
+    .award-org {
+      font-style: italic;
+      color: #666;
+      font-size: 0.95rem;
+    }
+
+    .award-icon {
+      font-size: 1.5rem;
+      color: var(--primary-color);
+      margin-right: 10px;
+      vertical-align: middle;
+    }
+/* --- Grants & Funding Styling --- */
+    .funding-card {
+      background: #fff;
+      border: 1px solid #eee;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+      transition: all 0.3s ease;
+      height: 100%;
+    }
+
+    .funding-card:hover {
+      border-color: var(--primary-color);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    }
+
+    .funding-type {
+      text-transform: uppercase;
+      font-size: 0.75rem;
+      letter-spacing: 1px;
+      font-weight: 700;
+      color: #777;
+      margin-bottom: 10px;
+      display: block;
+    }
+
+    .funding-amount {
+      float: right;
+      background: #e3f2fd;
+      color: #0d47a1;
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-weight: 700;
+      font-size: 0.9rem;
+    }
+
+    .status-badge {
+      background: #fff3e0;
+      color: #e65100;
+      padding: 2px 10px;
+      border-radius: 4px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-left: 10px;
+    }
+
+    .grant-title {
+      font-weight: 700;
+      font-size: 1.1rem;
+      line-height: 1.4;
+      margin-bottom: 15px;
+      color: #333;
+    }
+
+    .grant-details p {
+      margin-bottom: 5px;
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    .grant-details strong {
+      color: #333;
+    }
+
+/* --- Teaching & Experience Upgrades --- */
+    .teaching-card {
+      border: none;
+      border-left: 5px solid var(--primary-color);
+      background: #fff;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+      transition: 0.3s;
+    }
+
+    .teaching-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .teaching-role {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--primary-color);
+      margin-bottom: 5px;
+    }
+
+    .teaching-place {
+      font-weight: 600;
+      color: #444;
+      margin-bottom: 15px;
+      display: block;
+    }
+
+    .teaching-date {
+      float: right;
+      font-weight: 700;
+      color: #777;
+      font-size: 0.9rem;
+    }
+
+    .course-list {
+      list-style: none;
+      padding-left: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .course-list li {
+      background: #f0f4f8;
+      padding: 5px 12px;
+      border-radius: 4px;
+      font-size: 0.85rem;
+      color: #333;
+      border: 1px solid #d1d9e6;
+    }
+
+    .course-code {
+      font-weight: 800;
+      color: var(--primary-color);
+      margin-right: 5px;
+    }
+
+    /* --- Modern Timeline --- */
+    .experience-timeline {
+      position: relative;
+      padding-left: 30px;
+    }
+
+    .experience-timeline::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 2px;
+      background: #e9ecef;
+    }
+
+    .timeline-item {
+      position: relative;
+      margin-bottom: 30px;
+    }
+
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: -35px;
+      top: 5px;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: var(--primary-color);
+      border: 3px solid #fff;
+      box-shadow: 0 0 0 3px rgba(13, 71, 161, 0.1);
+    }
+
+    .job-title {
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin-bottom: 0;
+    }
+
+    .job-meta {
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+/* --- Academic Service Section Styles --- */
+    .service-card {
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+      border: 1px solid #edf2f7;
+      height: 100%;
+    }
+
+    .service-card h5 {
+      color: var(--primary-color);
+      font-weight: 700;
+      font-size: 1.15rem;
+      border-bottom: 2px solid #f1f5f9;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+    }
+
+    .service-card h5 i {
+      margin-right: 10px;
+      font-size: 1.4rem;
+    }
+
+    /* Editorship & Committee Items */
+    .service-item {
+      margin-bottom: 20px;
+      padding-left: 15px;
+      border-left: 3px solid #e2e8f0;
+    }
+
+    .service-item strong {
+      display: block;
+      color: #2d3748;
+      font-size: 1rem;
+    }
+
+    .service-publisher {
+      font-size: 0.85rem;
+      color: #718096;
+      display: block;
+      margin-top: 2px;
+    }
+
+    /* Reviewer Badge Grid */
+    .badge-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .reviewer-badge {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      color: #4a5568;
+      padding: 6px 14px;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      transition: 0.2s;
+    }
+
+    .reviewer-badge:hover {
+      background: var(--primary-color);
+      color: #fff;
+      border-color: var(--primary-color);
+      transform: translateY(-2px);
+    }
+
+/* --- Professional Development & Presentations Styles --- */
+    .others-section {
+      padding: 60px 0;
+    }
+
+    .info-card {
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+      height: 100%;
+      border-top: 4px solid var(--primary-color);
+    }
+
+    .info-card h5 {
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: var(--primary-color);
+      margin-bottom: 25px;
+      display: flex;
+      align-items: center;
+    }
+
+    .info-card h5 i {
+      margin-right: 12px;
+      font-size: 1.5rem;
+    }
+
+    /* Training Items */
+    .training-item {
+      display: flex;
+      margin-bottom: 15px;
+    }
+
+    .training-item i {
+      color: var(--primary-color);
+      margin-right: 15px;
+      margin-top: 5px;
+    }
+
+    .training-content strong {
+      display: block;
+      color: #333;
+      font-size: 0.95rem;
+    }
+
+    .training-content span {
+      font-size: 0.85rem;
+      color: #777;
+    }
+
+    /* Presentation Items */
+    .presentation-item {
+      position: relative;
+      padding-left: 20px;
+      border-left: 2px solid #e9ecef;
+      margin-bottom: 20px;
+    }
+
+    .presentation-item::before {
+      content: '';
+      position: absolute;
+      left: -7px;
+      top: 0;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: var(--primary-color);
+    }
+
+    .presentation-title {
+      font-weight: 700;
+      font-size: 0.95rem;
+      color: #333;
+      line-height: 1.4;
+      display: block;
+    }
+
+    .presentation-meta {
+      font-size: 0.85rem;
+      color: #666;
+      display: block;
+      margin-top: 4px;
+    }
+
+    .presentation-location {
+      color: var(--primary-color);
+      font-weight: 600;
+    }
+
+/* --- About Section Refinements --- */
+    .about .content h2 {
+      font-weight: 700;
+      font-size: 1.6rem;
+      color: var(--primary-color);
+      margin-bottom: 15px;
+    }
+
+    .about-img {
+      border-radius: 15px;
+      box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+      border: 5px solid #fff;
+    }
+
+    /* Bio Text */
+    .bio-text {
+      line-height: 1.8;
+      font-size: 1.05rem;
+      color: #444;
+      text-align: justify;
+    }
+
+    /* Skill Badges */
+    .skill-category-title {
+      font-size: 0.9rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #777;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      display: block;
+    }
+
+    .skill-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .skill-tag {
+      background: #f0f4f8;
+      color: #0d47a1;
+      padding: 5px 15px;
+      border-radius: 50px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      border: 1px solid #d1d9e6;
+      transition: 0.3s;
+    }
+
+    .skill-tag:hover {
+      background: var(--primary-color);
+      color: #fff;
+    }
+
+    /* Education Card */
+    .education-item {
+      padding: 15px;
+      border-left: 3px solid var(--primary-color);
+      background: #fff;
+      margin-bottom: 15px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      border-radius: 0 8px 8px 0;
+    }
+
+    .edu-year {
+      font-weight: 700;
+      color: var(--primary-color);
+      font-size: 0.9rem;
+    }
+
+    .edu-degree {
+      font-weight: 700;
+      display: block;
+      color: #333;
+    }
+
+    .edu-school {
+      font-size: 0.9rem;
+      color: #666;
+      font-style: italic;
+    }
+
+    /* Quick Info Icons */
+    .info-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .info-list li {
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+    }
+
+    .info-list i {
+      color: var(--primary-color);
+      margin-right: 10px;
+      font-size: 1.2rem;
+    }
+
+/* --- Hero Section Enhancements --- */
+    #hero {
+      width: 100%;
+      height: 100vh;
+      background: linear-gradient(rgba(5, 99, 175, 0.8), rgba(0, 0, 0, 0.9)), url("assets/img/hero-bg.jpg") top center;
+      background-size: cover;
+    }
+
+    #hero h1 {
+      margin: 0 0 10px 0;
+      font-size: 4rem;
+      font-weight: 700;
+      line-height: 56px;
+      color: #fff;
+    }
+
+    #hero p {
+      color: #fff;
+      margin-bottom: 50px;
+      font-size: 1.6rem;
+      font-family: "Poppins", sans-serif;
+    }
+
+    #hero p span {
+      color: #fff;
+      padding-bottom: 4px;
+      letter-spacing: 1px;
+      border-bottom: 3px solid var(--primary-color);
+    }
+
+    /* Hero Buttons */
+    .hero-buttons {
+      display: flex;
+      gap: 15px;
+      justify-content: center;
+    }
+
+    .btn-hero {
+      font-family: "Raleway", sans-serif;
+      font-weight: 600;
+      font-size: 1rem;
+      letter-spacing: 1px;
+      display: inline-block;
+      padding: 12px 32px;
+      border-radius: 5px;
+      transition: 0.5s;
+      color: #fff;
+      border: 2px solid #fff;
+      text-decoration: none;
+    }
+
+    .btn-hero.active {
+      background: var(--primary-color);
+      border-color: var(--primary-color);
+    }
+
+    .btn-hero:hover {
+      background: #fff;
+      color: var(--primary-color);
+    }
+
+    @media (max-width: 768px) {
+      #hero h1 {
+        font-size: 2.5rem;
+        line-height: 36px;
+      }
+      #hero p {
+        font-size: 1.2rem;
+        line-height: 24px;
+        margin-bottom: 30px;
+      }
+    }
+
+/* ======== RESPONSIVE OVERRIDES ======== */
+
+/* 1. Universal Responsive Typography */
+html {
+  font-size: 16px; /* Base size */
+}
+
+@media (max-width: 1200px) {
+  #hero h1 { font-size: 3.5rem; }
+}
+
+@media (max-width: 992px) {
+  #hero h1 { font-size: 3rem; }
+  .about-img { margin-bottom: 30px; }
+}
+
+@media (max-width: 768px) {
+  #hero h1 { 
+    font-size: 2.2rem; 
+    line-height: 1.2;
+  }
+  #hero p { font-size: 1.1rem; }
+  
+  .section-title h2 { font-size: 1.8rem; }
+  
+  /* Stack the hero buttons on very small screens */
+  .hero-buttons {
+    flex-direction: column;
+    width: 80%;
+  }
+  .btn-hero {
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Adjust Education & Teaching cards for mobile padding */
+  .teaching-card, .education-item, .award-item {
+    padding: 15px;
+  }
+  
+  .teaching-date {
+    float: none;
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+/* 2. Image Responsiveness */
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 3. Ensure the Hero handles different heights (Mobile browsers) */
+#hero {
+  min-height: 100vh; /* Better than fixed height for mobile toolbars */
+  padding: 60px 0;
+}
+
+/* 4. Fix for Publication Tabs on Mobile */
+@media (max-width: 575px) {
+  .nav-tabs .nav-link {
+    font-size: 0.8rem;
+    padding: 8px 10px;
+  }
+}
