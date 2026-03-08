@@ -1827,3 +1827,49 @@ html {
     padding: 8px 10px;
   }
 }
+/* --- Centering & Responsiveness Fix --- */
+#hero {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(rgba(5, 99, 175, 0.8), rgba(0, 0, 0, 0.9)), url("assets/img/hero-bg.jpg") top center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertical Center */
+  align-items: center;     /* Horizontal Center */
+  text-align: center;      /* Center all text */
+  padding: 0 15px;
+}
+
+.hero-container {
+  width: 100%;
+}
+
+#hero h1 {
+  font-size: 4rem; /* Will shrink on mobile via media query below */
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+#hero p {
+  font-size: 1.6rem;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 768px) {
+  #hero h1 { font-size: 2.5rem; }
+  #hero p { font-size: 1.2rem; }
+  .hero-buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* Stack buttons on mobile */
+    align-items: center;
+  }
+  .btn-hero {
+    width: 80%; /* Wider buttons for easier tapping */
+    margin: 10px 0 !important;
+  }
+}
